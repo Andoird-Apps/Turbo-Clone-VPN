@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#9C560A</color>
+    <color name="primary_dark">#99550b</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+<!--
+    <color name="splashscreencolor">#EE0A0A</color>
+-->
+    <color name="textcolor">#ffffff</color>
+    <color name="splashscreencolor">#381C00</color>
+    <color name="colorPrimary">#5e3002</color>
+    <color name="colorPrimaryDark">#381C00</color>
+    <color name="popUpBg">#ffffff</color>
+    <color name="listDivider">#356690</color>
+
+    <color name="toolbarTitle">#cbecfd</color>
+    <color name="toolbarBg">#356690</color>
+
+    <color name="buttonText">#cbecfd</color>
+    <color name="buttonBg">#356690</color>
+
+    <color name="totalServers">#ffffff</color>
+
+    <color name="infoServersList">#1c3f61</color>
+
+    <color name="ratingNot">#A7A7A7</color>
+
+    <color name="activeServer">#093e68</color>
+    <color name="additionalServer">#F1DD77</color>
+
+    <color name="serverNameBg">#cbecfd</color>
+    <color name="serverName">#356690</color>
+    <color name="lightRed">#ff8a80</color>
+</resources>

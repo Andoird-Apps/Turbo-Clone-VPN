@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.turboclone.demovpn">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:name="com.turboclone.demovpn.MainApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8330534660536157~1376194105"/>
+        <activity android:name="com.turboclone.demovpn.activity.IntroActivity"
+            android:theme="@style/AppTheme1"/>
+        <activity
+            android:name="com.turboclone.demovpn.activity.SplashScreen"
+            android:theme="@style/Splashscreentheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.turboclone.demovpn.activity.AboutUs"
+            android:parentActivityName="com.turboclone.demovpn.activity.MainActivity"/>
+        <activity android:name="com.turboclone.demovpn.activity.Faq"
+            android:parentActivityName="com.turboclone.demovpn.activity.MainActivity"/>
+        <activity android:name="com.turboclone.demovpn.activity.Settings"
+            android:parentActivityName="com.turboclone.demovpn.activity.MainActivity"/>
+        <activity android:name="com.turboclone.demovpn.activity.Servers"
+            android:parentActivityName="com.turboclone.demovpn.activity.MainActivity"/>
+        <activity android:name="com.turboclone.demovpn.activity.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upgrade"
+            android:icon="@mipmap/ic_premium_plan"
+            android:title="Select Country" />
+        <item
+            android:id="@+id/nav_helpus"
+            android:icon="@drawable/ic_mail_black"
+            android:title="Help us to improve" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_thumb_up_black"
+            android:title="Rate us" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Tell your friend" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_black"
+            android:title="FAQ" />
+    </group>
+
+</menu>
